@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 0px 300px;
+    padding: 0;
     font-family: 'Hero New', sans-serif;
 }
 
@@ -9,7 +9,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    padding: 0px 20px;
+    padding: 0px 200px;
 }
 
 .header h1 {
@@ -26,4 +26,111 @@ body {
 
 .header ul li {
     color: #E5E7EB;
+}
+
+.main {
+    background-color: #1F2937;
+    padding: 80px 200px 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main h2 {
+    font-size: 48px;
+    padding: 0;
+    margin: 0;
+    color: #F9FAF8;
+}
+
+.main p {
+    font-size: 16px;
+    color: #E5E7EB;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+.main-left {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+    width: 50%;
+}
+
+#sign-up {
+    font-family: 'Hero New', sans-serif;
+    font-weight: 600;
+    align-self: flex-start;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    text-align: center;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+.information {
+    padding: 0px 200px;
+    margin: 0px 0px 80px;
+    text-align: center;
+}
+
+.information h3 {
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.information p {
+    color: grey;
+    font-size: 16px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.square {
+    border-radius: 8px;
+    border: 4px solid #3882F6;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    flex: auto;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 300px 40px;
+    gap: 16px;
+    background-color: #E5E7EB;
+}
+
+#quo {
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    font-weight: 300;
+    margin: 0;
+}
+
+#quo-author {
+    color:#1F2937;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 0;
+    align-self: flex-end;
+    margin-right: 60px;
 }
