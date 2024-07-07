@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0px 300px;
+    font-family: 'Hero New', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 0px 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+.header ul li {
+    color: #E5E7EB;
+}
